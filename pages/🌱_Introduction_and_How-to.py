@@ -35,4 +35,4 @@ if __name__ == "__main__":
     main()
 import streamlit as st
 
-st.caption("To be updated")
+st.caption("Last updated on Mar. 17, 2025")
