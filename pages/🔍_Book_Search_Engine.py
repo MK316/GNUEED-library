@@ -22,14 +22,14 @@ def search_books(category, search_query):
     return filtered_df[['ID', 'Book_Title', 'Author']]
 
 def main():
-    st.title('GNU EED Library Book Search Tool')
-    st.write("Welcome to the Book Search Tool! Use this application to search for books by category, title, or author name.")
-    
-    st.subheader("Search Filters")
+    st.markdown('### 📚 GNU EED Library Book Search Tool')
+    st.write("Welcome to the English Education Library Book Search Tool! This application allows you to search through our collection of 677 books by category (General or Series), title, or author name.")
+       
+    st.subheader("📌 Search Filters")
     category = st.radio("Select Category", ['All', 'General', 'Series'], index=0)
     search_query = st.text_input("Search by Title or Author (Partial matching allowed)")
     st.caption("You can search using partial words from the book title or author's name. There is no need to write the full title.")
-    st.subheader("Search Results")
+    st.subheader("📌 Search Results")
     if st.button('Search'):
         results = search_books(category, search_query)
         if not results.empty:
