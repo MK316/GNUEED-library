@@ -36,7 +36,7 @@ def main():
             st.dataframe(results)
         else:
             st.write("No books found matching the criteria.")
-
+    st.markdown("---")
     # Link to Google Drive File
     file_url = "https://docs.google.com/spreadsheets/d/1wVjJ0kT3eRXC_-1rZ1CQUTrwwCT6TJC5UUuaIQUsiMM/edit?usp=sharing"  # Replace YOUR_FILE_ID with your actual file ID
     st.markdown(
