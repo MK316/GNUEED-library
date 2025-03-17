@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.markdown('## 🍃 English-Language Books Library (GNU EED)')
+    st.markdown('### 🍃 English-Language Books Library (GNU EED)')
 
 
     st.write("""
