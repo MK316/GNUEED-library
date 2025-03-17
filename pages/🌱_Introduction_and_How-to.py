@@ -28,7 +28,7 @@ def main():
     st.write("""
     - **Book Returns**: When returning books, make sure to check them in with the department assistant to ensure they are properly returned to the library system.
     """)
-
+    st.markdown("---")
     st.caption("We hope you enjoy using our library resources to enhance your learning and research!")
 
 if __name__ == "__main__":
