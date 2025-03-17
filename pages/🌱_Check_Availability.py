@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.write("🐥 The button below opens a read-only Google Sheet that allows you to check the availability of books for checkout. Please note that this is for checking availability only; you must visit the department office to actually check out the books.")
+
     # Link to Google Drive File
 file_url = "https://docs.google.com/spreadsheets/d/1wVjJ0kT3eRXC_-1rZ1CQUTrwwCT6TJC5UUuaIQUsiMM/edit?usp=sharing"  # Replace YOUR_FILE_ID with your actual file ID
 st.markdown(
