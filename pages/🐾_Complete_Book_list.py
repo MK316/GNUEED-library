@@ -9,7 +9,7 @@ def main():
     st.caption("This application allows you to explore our collection of books, sorted either by ID, title, or author name.")
     st.markdown("---")
     # User choice for sorting
-    sort_choice = st.radio("Sort books by:", ('ID', 'Book Title (alphabetical)', 'Author (alphabetical)'))
+    sort_choice = st.radio("📌 Sort books by:", ('ID', 'Book Title (alphabetical)', 'Author (alphabetical)'))
 
     if sort_choice == 'ID':
         sorted_df = df.sort_values(by='ID')
