@@ -5,7 +5,7 @@ import pandas as pd
 df = pd.read_csv('pages/gnueed-booklist.csv', encoding='utf-8')
 
 def main():
-    st.title('English Education Library Book Catalog')
+    st.markdown('### 📃 English Education Library Book Catalog')
     st.write("Welcome to the English Education Library Book Search Tool! This application allows you to explore our collection of books, sorted either by ID, title, or author name.")
 
     # User choice for sorting
