@@ -9,7 +9,7 @@ def main():
     st.write("Welcome to the English Education Library Book Search Tool! This application allows you to explore our collection of books, sorted either by ID, title, or author name.")
 
     # User choice for sorting
-    sort_choice = st.radio("Sort books by:", ('ID', 'Book Title', 'Author'))
+    sort_choice = st.radio("Sort books by:", ('ID', 'Book Title (alphabetical)', 'Author (alphabetical)'))
 
     if sort_choice == 'ID':
         sorted_df = df.sort_values(by='ID')
