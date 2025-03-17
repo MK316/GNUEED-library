@@ -27,7 +27,7 @@ def main():
         f"<a href='{file_url}' target='_blank' style='display: inline-block; text-align: center; "
         f"background-color: #4CAF50; color: white; padding: 10px 20px; "
         f"text-decoration: none; border-radius: 4px; margin-top: 10px;'>"
-        f"Download Shared File</a>", unsafe_allow_html=True)
+        f"Status: Check Availability</a>", unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
