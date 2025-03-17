@@ -8,7 +8,7 @@ def main():
     st.markdown('### 📃 English Education Library Book Catalog')
     st.write("Welcome to the English Education Library Book Search Tool!")
     st.write("This application allows you to explore our collection of books, sorted either by ID, title, or author name.")
-
+    st.markdown("---")
     # User choice for sorting
     sort_choice = st.radio("Sort books by:", ('ID', 'Book Title (alphabetical)', 'Author (alphabetical)'))
 
