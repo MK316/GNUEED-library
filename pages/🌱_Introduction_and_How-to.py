@@ -32,6 +32,7 @@ def main():
     st.write("""
     - **Reading Onsite**: You are welcome to read the books at the library.
     - **Borrowing Books**: If you wish to take books home, please visit the department office to fill out the borrowing ledger.
+    - **Duration**: By default, you can borrow for two weeks and renew once for a total of four weeks.
     """)
     st.markdown("---")
     st.markdown("#### 🔸 Returning Books")
