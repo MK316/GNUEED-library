@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load data
-df = pd.read_csv('/pages/gnueed-booklist.csv', encoding='utf-8')
+df = pd.read_csv('pages/gnueed-booklist.csv', encoding='utf-8')
 
 def search_books(category, search_query):
     """Searches books by category and title/author with partial matching."""
