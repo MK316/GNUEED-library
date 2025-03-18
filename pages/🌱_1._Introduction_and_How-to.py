@@ -38,7 +38,7 @@ def main():
         st.write("""
         - **Reading Onsite**: You are welcome to read the books at the library.
         - **Borrowing Books**: If you wish to take books home, please visit the department office to fill out the borrowing ledger.
-        - **Duration**: By default, you can borrow for three weeks and renew once for a total of six weeks.
+        - **Duration**: By default, you can borrow for three weeks and renew once (+2 weeks) for a total of five weeks.
        
         """)
         st.info("❗**Late Return fee**: If you return books late, there is a fee of 500 won per day.")
